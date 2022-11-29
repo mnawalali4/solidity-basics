@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "firstname",
+						"type": "string"
+					},
+					{
+						"name": "lastname",
+						"type": "string"
+					}
+				],
+				"name": "add_person",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"name": "firstname",
+						"type": "string"
+					},
+					{
+						"name": "lastname",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/modifier.sol": "maping"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/modifier.sol": {
+			"keccak256": "0x21f96890f4fc235f03409593638a7fab557082abc4ed5d508483f2608c6c270f",
+			"urls": [
+				"bzzr://6141698b43b5e08e9f170b201e0995b66b874850047a9b4afe549af789425b84"
+			]
+		}
+	},
+	"version": 1
+}

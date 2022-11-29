@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "get_person",
+				"outputs": [
+					{
+						"internalType": "enum enum_tutorial.PersonType",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "promote_person",
+				"outputs": [
+					{
+						"internalType": "enum enum_tutorial.PersonType",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enum.sol": "enum_tutorial"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enum.sol": {
+			"keccak256": "0x6f62a5c37f12a2a2a694d5e2c5f41b18473bdb225e154f178787f282e2ff591c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8aa6175ac70c18bad9a2544e07c974684e37bcc3bc5cc182925e06ae0eb6684b",
+				"dweb:/ipfs/QmaY45eLsjqVWLo8dfeDBEVcRGnuqvCkiTQXBM39nS6qZU"
+			]
+		}
+	},
+	"version": 1
+}

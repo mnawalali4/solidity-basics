@@ -1,0 +1,70 @@
+{
+	"id": "a9d25551d29539a28cb2bef931016b9d",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.1",
+	"solcLongVersion": "0.5.1+commit.c8a2cb62",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/inheritence.sol": {
+				"content": ""
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {},
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "contracts/inheritence.sol:1:1: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.1;\"\n\n^\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.1;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 0,
+					"file": "contracts/inheritence.sol",
+					"start": 0
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/inheritence.sol": {
+				"ast": {
+					"absolutePath": "contracts/inheritence.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "0:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
